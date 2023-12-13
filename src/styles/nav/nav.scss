@@ -1,0 +1,27 @@
+.nav {
+  width: 100%;
+  height: 60px;
+  background: wheat;
+  color: black;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &__logo {
+    justify-content: flex-start;
+  }
+
+  &__menu {
+    justify-content: flex-end;
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 3px 8px;
+        margin: 0 5px;
+      }
+    }
+  }
+}
