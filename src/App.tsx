@@ -1,15 +1,16 @@
-import './App.css'
 import './styles/reset/reset.scss'
 import './styles/homepage/homepage.scss'
-import Nav from './components/nav/nav.tsx'
+import Nav from './components/nav/Nav'
+import Header from './components/header/Header';
 
 function App() {
 
-  return (
-    <>
-      <Nav/>
-    </>
-  )
+    return (
+        <>
+            <Nav/>
+            <Header/>
+        </>
+    )
 }
 
 export default App
