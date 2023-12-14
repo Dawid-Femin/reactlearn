@@ -1,14 +1,13 @@
-import './styles/reset/reset.scss'
-import './styles/homepage/homepage.scss'
-import Nav from './components/nav/Nav'
-import Header from './components/header/Header';
+import './app.scss'
+import Header2 from "./components/Header2.tsx";
+import Nav from './components/Nav.tsx'
 
 function App() {
 
     return (
         <>
             <Nav/>
-            <Header/>
+            <Header2/>
         </>
     )
 }
