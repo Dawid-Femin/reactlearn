@@ -1,14 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../styles/_nav.scss';
-
-const containerStyles = {
-    maxWidth: '1280px',
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    margin: '0 auto',
-    height: '100%',
-};
+import style from './Nav.module.scss'
 
 const Nav = () => {
     const [active, setActive] = useState(false);
@@ -31,14 +22,12 @@ const Nav = () => {
         };
     }, []);
 
-    const navClassName = `nav ${active ? 'active' : ''}`;
-
     return (
         <>
-            <nav className={navClassName}>
-                <div style={containerStyles}>
-                    <div className='nav__logo'>LOGO</div>
-                    <div className='nav__menu'>
+            <nav className={`${style.nav} ${active ? style.active : ''}`}>
+                <div className={style.container}>
+                    <div className={style.nav__logo}>LOGO</div>
+                    <div className={style.nav__menu}>
                         <ul>
                             <li>Homepage</li>
                             <li>About</li>
