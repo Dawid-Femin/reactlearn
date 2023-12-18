@@ -1,8 +1,13 @@
-import style from './Header.module.scss'
+import { useState } from "react";
+import style from "./Header.module.scss";
 import SearchBar from "../SearchBar/SearchBar.tsx";
-// import {useState} from "react";
+import {SearchFunction} from "../../interfaces/HeaderData.tsx";
 
-const Header = (props) => {
+interface HeaderProps {
+    searchHotels: SearchFunction;
+}
+
+const Header = (props: HeaderProps) => {
     const slides = [
         {
             url: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -13,18 +18,28 @@ const Header = (props) => {
         {
             url: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         }
-    ]
+    ];
 
-    // const [currentImage, setCurrentImage] = useState(0)
+    const [currentImageIndex, setCurrentImageIndex] = useState(1);
+
+    const moveRight = () => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slides.length);
+    };
+
+    const moveLeft = () => {
+        setCurrentImageIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
+    };
 
     return (
         <div className={style.header}>
-            <div className={style.header__image} style={{backgroundImage: `url(${slides[0].url})`}}></div>
+            <div className={style.header__image} style={{ backgroundImage: `url(${slides[currentImageIndex].url})` }}></div>
             <div className={style.header__input}>
-                <SearchBar onSearch={props.onSearch}/>
+                <SearchBar searchHotels={props.searchHotels} />
             </div>
+            <div className={style.header__rightArrow} onClick={moveRight}>RIGHT</div>
+            <div className={style.header__leftArrow} onClick={moveLeft}>LEFT</div>
         </div>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

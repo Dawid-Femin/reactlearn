@@ -1,0 +1,116 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Luksusowy Hotel Riviera",
+      "description": "Elegancki hotel z widokiem na malownicze wybrzeże. Doskonałe miejsce na relaks i luksusowy wypoczynek.",
+      "location": "Monako",
+      "img": "https://img.freepik.com/darmowe-zdjecie/recepcjonistki-w-eleganckich-garniturach-w-godzinach-pracy_23-2149714414.jpg?w=1380&t=st=1702916968~exp=1702917568~hmac=6f2a8d400b9b93f131fe9d3e8d6c62a56900d8796681e0189b5e172eda262033",
+      "rate": 9.5
+    },
+    {
+      "id": 2,
+      "name": "Hotel Górski Panorama",
+      "description": "Otoczony pięknymi górami, ten hotel oferuje niesamowite widoki i możliwość aktywnego wypoczynku na świeżym powietrzu.",
+      "location": "Alpy Szwajcarskie",
+      "img": "https://img.freepik.com/darmowe-zdjecie/recepcjonistka-hotelowa-w-pracy_23-2149661559.jpg?w=1380&t=st=1702916971~exp=1702917571~hmac=901b170564d0fc49c1ff9f12e4484321f0ae19b2f519993eaf1334fca5064633",
+      "rate": 8.7
+    },
+    {
+      "id": 3,
+      "name": "Plażowy Raj Resort",
+      "description": "Bezpośredni dostęp do piaszczystej plaży, baseny z widokiem na ocean i liczne atrakcje dla gości.",
+      "location": "Bora Bora",
+      "img": "https://img.freepik.com/darmowe-zdjecie/nowoczesny-apartament-typu-studio-z-sypialni-i-przestrzeni-zyciowej_1262-12375.jpg?w=1380&t=st=1702916971~exp=1702917571~hmac=82b19f18749b04c303dc912fba99ca45dc72d1f6d11d7f3caaa46e833fab0538",
+      "rate": 9.2
+    },
+    {
+      "id": 4,
+      "name": "Hotel Tajemniczej Dżungli",
+      "description": "Zanurz się w dzikiej przyrodzie, ciesząc się luksusowym komfortem w otoczeniu tropikalnej dżungli.",
+      "location": "Amazonia",
+      "img": "https://img.freepik.com/darmowe-zdjecie/kobieta-recepcjonistka-w-eleganckim-garniturze-w-godzinach-pracy_23-2149714386.jpg?w=1380&t=st=1702916973~exp=1702917573~hmac=8eb908573e7edefbe814bb5724bf5671c9c93d5e69f36da2e849f0ae29762715",
+      "rate": 8.9
+    },
+    {
+      "id": 5,
+      "name": "Nowoczesny Apartamentowy Pałac",
+      "description": "Ekskluzywne apartamenty w sercu miejskiej dżungli. Idealne miejsce dla miłośników nowoczesnego designu.",
+      "location": "Nowy Jork",
+      "img": "https://img.freepik.com/darmowe-zdjecie/tylni-widok-kobiety-rozciagania-cialo-po-przebudzenia-na-lozku_23-2148033286.jpg?w=1060&t=st=1702916974~exp=1702917574~hmac=fc22b7b8ed54d41ef1d40f0e7526b9302775c92f2736070eae1982519f3ddd22",
+      "rate": 9.0
+    },
+    {
+      "id": 6,
+      "name": "Hotel Pod Wodospadem",
+      "description": "Unikalne doświadczenie noclegu z widokiem na imponujący wodospad. Niezapomniane chwile relaksu.",
+      "location": "Iguazu Falls",
+      "img": "https://img.freepik.com/darmowe-zdjecie/poduszka-na-lozku_74190-2048.jpg?w=1380&t=st=1702916961~exp=1702917561~hmac=a6c7465cc791a33b96618dfaa4daabf91a65ce79c39c13f51612c07894376e9a",
+      "rate": 8.8
+    },
+    {
+      "id": 7,
+      "name": "Hotel Magicznej Doliny",
+      "description": "Otoczony zielonymi wzgórzami, ten urokliwy hotel oferuje magiczną atmosferę i spokojny wypoczynek.",
+      "location": "Toskania",
+      "img": "https://img.freepik.com/darmowe-zdjecie/luksusowy-klasyczny-nowoczesny-apartament-w-hotelu_105762-1787.jpg?w=1380&t=st=1702916961~exp=1702917561~hmac=72a6d8cd7d1edf31f76fc56d264b00e2c4d2502b6b18f44aead7074975f93493",
+      "rate": 9.1
+    },
+    {
+      "id": 8,
+      "name": "Hotel Arktycznej Przygody",
+      "description": "Położony w bliskości lodowców i zorzy polarnej, ten hotel zapewnia niepowtarzalne wrażenia zimowe.",
+      "location": "Svalbard",
+      "img": "https://img.freepik.com/darmowe-zdjecie/widok-luksusowej-przestrzeni-wnetrza-hotelu_23-2150683413.jpg?w=1380&t=st=1702916962~exp=1702917562~hmac=4ef5673ba6fc79ea6eafffc75b6042821380e963ab7a368b4dca84a258349e3b",
+      "rate": 8.5
+    },
+    {
+      "id": 9,
+      "name": "Słoneczny Rajskie Wille",
+      "description": "Eleganckie willowe domki z prywatnym basenem, otoczone tropikalnym ogrodem. Doskonałe dla par.",
+      "location": "Bali",
+      "img": "https://img.freepik.com/darmowe-zdjecie/bialy-recznik-na-lozku-dekoracji-wnetrza-sypialni_1339-7139.jpg?w=1380&t=st=1702916963~exp=1702917563~hmac=ac9be6ae8f40d5b92092df5fcf81f63526cfac014f51f4b800b2e9264096af6c",
+      "rate": 9.3
+    },
+    {
+      "id": 10,
+      "name": "Hotel Pod Wulkanem",
+      "description": "Podziwiaj spektakularne widoki na wulkan i otaczającą przyrodę z tego komfortowego hotelu.",
+      "location": "Hawaje",
+      "img": "https://img.freepik.com/darmowe-zdjecie/widok-luksusowej-przestrzeni-wnetrza-hotelu_23-2150683437.jpg?w=1380&t=st=1702916964~exp=1702917564~hmac=3afcff9c179abd8958d96d2fff335ab71bf5f9139b50a93e567a8a991e2e5f96",
+      "rate": 8.9
+    },
+    {
+      "id": 11,
+      "name": "Hotelowa Oaza Pustynna",
+      "description": "Luksusowa oaza w sercu pustyni, z basenami, restauracjami i egzotycznymi ogrodami.",
+      "location": "Dubaj",
+      "img": "https://img.freepik.com/darmowe-zdjecie/typ-kompleksu-rozrywkowego-popularny-kurort-z-basenami-i-parkami-wodnymi-w-turcji-odwiedzany-przez-ponad-5-milionow-turystow-rocznie-amara-dolce-vita-luxury-hotel-osrodek-wczasowy-tekirova-kemer_146671-18728.jpg?w=1380&t=st=1702917085~exp=1702917685~hmac=221e21359bdafddd4b9240dceeebac047a52bf965f09c61cc2d7c2915c9f9594",
+      "rate": 9.4
+    },
+    {
+      "id": 12,
+      "name": "Hotel Pod Światłami Miasta",
+      "description": "Zanurz się w tętniącym życiem nocnym mieście, z widokiem na iluminowane wieżowce.",
+      "location": "Tokio",
+      "img": "https://img.freepik.com/darmowe-zdjecie/osrodek-hotelowy_74190-1643.jpg?w=1380&t=st=1702917087~exp=1702917687~hmac=4ba94b734a83d000bd4d9902e2fc0d861e27f92832c5223584583cd13099a406",
+      "rate": 8.8
+    },
+    {
+      "id": 13,
+      "name": "Hotelowa Wioska Nad Morzem",
+      "description": "Rustykalna wioska nad brzegiem morza, oferująca spokojny odpoczynek z dala od zgiełku miasta.",
+      "location": "Santorini",
+      "img": "https://img.freepik.com/darmowe-zdjecie/pokojowka-robi-lozko-w-pokoju-hotelowym_171337-12690.jpg?w=1380&t=st=1702917088~exp=1702917688~hmac=ff6bbf609b17796de8c30d8ad364771d74b940158e6c2c3cb6a36837bfb102f5",
+      "rate": 9.0
+    },
+    {
+      "id": 14,
+      "name": "Hotel Archipelagu",
+      "description": "Elegancki hotel na prywatnej wyspie, otoczony błękitnym morzem i białym piaskiem.",
+      "location": "Malediwy",
+      "img": "https://img.freepik.com/darmowe-zdjecie/recepcjonistka-hotelowa-w-pracy_23-2149661559.jpg?w=1380&t=st=1702916971~exp=1702917571~hmac=901b170564d0fc49c1ff9f12e4484321f0ae19b2f519993eaf1334fca5064633",
+      "rate": 9.6
+    }
+  ]
+}

@@ -22,6 +22,22 @@
     width: 30%;
   }
 
+  &__rightArrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__leftArrow {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+
   @include large {
     height: 90vh;
   }
